@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "builds": [
+              {
+                "src": "visionx/wsgi.py",
+                "use": "@vercel/python"
+              }
+            ],
+            "routes": [
+              {
+                "src": "/(.*)",
+                "dest": "visionx/wsgi.py"
+              }
+            ]
+          }
+    ]
+}
