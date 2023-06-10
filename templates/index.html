@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VisionX</title>
+</head>
+<body>
+    <form method="post" action="">
+        {% csrf_token %}
+        <label for="text_input">Enter the prompt:</label>
+        <input type="text" name="text_input" id="text_input">
+        <input type="submit" value="Generate">
+    </form>
+</body>
+</html>
