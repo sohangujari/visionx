@@ -3,7 +3,7 @@ import io
 from PIL import Image
 
 API_URL = "https://api-inference.huggingface.co/models/prompthero/openjourney"
-API_TOKEN = "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"
+API_TOKEN = "API_TOKEN"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 def query(payload):
