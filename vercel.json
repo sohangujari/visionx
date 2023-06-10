@@ -8,11 +8,5 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "visionx/wsgi.py" }
-  ],
-  "env": {
-    "VERCEL": true,
-    "PYTHONUNBUFFERED": "1",
-    "STATIC_URL": "/static/",
-    "DJANGO_SETTINGS_MODULE": "visionx.settings"
-  }
+  ]
 }
